@@ -9,9 +9,9 @@ int main(void)
 
 	for (j = 0; j <= 100; j++)
 	{
-		if (j % 3 == 0 && j % 5 != 0)
+		if (j == 1)
 		{
-			printf(" FIZZ");
+			printf("%d", j);
 		}
 		else if (j % 5 == 0 && j % 3 != 0)
 		{
@@ -21,9 +21,9 @@ int main(void)
 		{
 			printf(" FizzBuzz");
 		}
-		else if (j == 1)
+		else if (j % 3 == 0 && j % 5 != 0)
 		{
-			printf("%d", j);
+			printf(" FIZZ");
 		}
 		else
 		{
