@@ -1,9 +1,12 @@
 #include <stdio.h>
+
+void first(void) __attribute__ ((constructor));
+
 /**
- * bmain - executes before main
+ * first - prints a sentence before the main
  */
-void __attribute__ ((constructor)) bmain()
+void first(void)
 {
-	printf("you're beat, and yet, you must allow");
-	printf(",\nI bore my house upon my back\n");
+	printf("you're beat, and yet, you must allow,\n");
+	printf("I bore my house upon my back\n");
 }
