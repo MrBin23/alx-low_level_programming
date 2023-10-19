@@ -9,6 +9,7 @@
  * struct list_s - singly linked list
  * @str: pointer to char
  * @next: pointer to next node
+ * @len: length of string
  */
 typedef struct list_s
 {
