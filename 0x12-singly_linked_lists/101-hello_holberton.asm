@@ -1,5 +1,5 @@
 SECTION .data
-msg: db "Hello, Holberto", 0
+msg: db "Hello, Holberto", 10, 0
 fmt: db "%s", 10, 0
 
 
