@@ -11,11 +11,6 @@ int main(void)
 	{
 		putchar(let);
 	}
-
-	for (let = 'A'; let <= 'Z'; let++)
-	{
-		putchar(let);
-	}
 	putchar('\n');
 
 	return (0);
