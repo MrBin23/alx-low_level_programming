@@ -4,7 +4,7 @@
  * @head: points to first node
  * @idx: where at new node
  * @n: whre to insert new node
- * return: null or pointer to new node
+ * Return: null or pointer to new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
