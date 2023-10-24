@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_nodeint_node - adds node at end of linked list
+ * add_nodeint_end - adds node at end of linked list
  * @head: poiints to first element in the list
  * @n: takes new element
  * Return: pointer to new node
@@ -8,7 +8,7 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node;
-	listint_t *temp;
+	listint_t *temp = *head;
 
 	new_node = malloc(sizeof(listint_t));
 
