@@ -6,13 +6,15 @@
  */
 int _strlen(char *s)
 {
-	int j = 0;
+	int j;
+
+       	j = 0;
 
 	while (s[j] != '\0')
 	{
 		j++;
 	}
-	return (0);
+	return (j);
 }
 
 /**
@@ -23,7 +25,9 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int length, j = 0;
+	int length, j;
+
+	length = 0;
 
 	while (src[length] != '\0')
 	{
