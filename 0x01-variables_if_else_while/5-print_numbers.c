@@ -5,16 +5,15 @@
  */
 int main(void)
 {
-	char let;
+	char digit = '0';
 
-	for (let = 'a'; let <= 'z'; let++)
+	while (digit <= '9')
 	{
-		if (let != 'e' && let != 'q')
-		{
-			putchar(let);
-		}
+		putchar(digit);
+		digit++;
 	}
-	putchar('\n');
+
+	putchar ('\n');
 
 	return (0);
 }
